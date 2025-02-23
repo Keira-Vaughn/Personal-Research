@@ -41,3 +41,20 @@ header > h1{
 	color: rgba(51,17,2,1.00);
 }
 
+.right a:hover{
+	font-size: 1.2em;
+	color: firebrick;
+	
+}
+
+title{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	
+}
+
+.metal-mania-regular {
+  font-family: "Metal Mania", serif;
+  font-weight: 400;
+  font-style: normal;
+}
