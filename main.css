@@ -58,3 +58,48 @@ title{
   font-weight: 400;
   font-style: normal;
 }
+/* nav bar */
+nav{
+	margin: 0 10px 20px 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4D2E12;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color:rgba(35,19,4,1.00);
+}
+
+nav .active {
+  background-color: #351E08;
+}
+input[type=text] {
+  width: 90%;
+  box-sizing: border-box;
+  border: 2px solid rgba(81,46,13,1.00);
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #824E1F;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+
