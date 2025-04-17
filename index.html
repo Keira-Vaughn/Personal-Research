@@ -1,5 +1,7 @@
 <!doctype html>
 <html>
+	
+	
 <head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +18,13 @@
 		</header>
 		<nav><ul>
   <li><a href="index.html">Home</a></li>
-  <li><a href="proof.html">Sources</a></li>
   <li><a href="contact.html">Contact</a></li>
-  <li style="float:right"><a class="active" href="#about">About</a></li>
+			<li><a href="proof.html">Criminal Justice System</a></li>
+			<li><a href="proof.html">Criminal Law</a></li>
+			<li><a href="proof.html">Criminology</a></li>
+			<li><a href="proof.html">Forensics</a></li>
+			<li><a href="proof.html">Careers</a></li>
+  <li style="float:right"><a class="active" href="#about">Sources</a></li>
 </ul></nav>
 		<section>
 			
@@ -48,7 +54,36 @@
 		<audio controls><source src="702854__noahbangs__police-siren-old-fashioned-1950s-wailing.flac" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+<body>
+<h1>HTML Geolocation</h1>
+<p>Click the button to get your coordinates.</p>
 
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(success, error);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function success(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+function error() {
+  alert("Sorry, no position available.");
+}
+</script>
+
+</body>
 		</footer>
 		
 	</div>
