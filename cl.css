@@ -7,7 +7,8 @@ title{
   font-weight: 400;
   font-style: normal;
 	color: rgba(81,46,13,1.00);
-}@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 600px) {
   .item1 {grid-area: 1 / span 6;}
   .item2 {grid-area: 2 / span 6;}
   .item3 {grid-area: 3 / span 6;}
