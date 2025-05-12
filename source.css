@@ -1,0 +1,51 @@
+title{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	
+}.metal-mania-regular {
+  font-family: "Metal Mania", serif;
+  font-weight: 400;
+  font-style: normal;
+	color: rgba(81,46,13,1.00);
+}@media only screen and (max-width: 600px) {
+  .item1 {grid-area: 1 / span 6;}
+  .item2 {grid-area: 2 / span 6;}
+  .item3 {grid-area: 3 / span 6;}
+  .item4 {grid-area: 4 / span 6;}
+  .item5 {grid-area: 5 / span 6;}
+}
+
+@media only screen and (min-width: 600px) {
+  .item1 {grid-area: 1 / span 6;}
+  .item2 {grid-area: 2 / span 1;}
+  .item3 {grid-area: 2 / span 4;}
+  .item4 {grid-area: 3 / span 6;}
+  .item5 {grid-area: 4 / span 6;}
+}
+
+@media only screen and (min-width: 768px) {
+  .item1 {grid-area: 1 / span 6;}
+  .item2 {grid-area: 2 / span 1;}
+  .item3 {grid-area: 2 / span 4;}
+  .item4 {grid-area: 2 / span 1;}
+  .item5 {grid-area: 3 / span 6;}
+}
+
+*{
+	box-sizing: border-box;
+} 
+body{
+	background: url("bg finish.png") no-repeat fixed top right;}
+#container{
+	background-color: rgba(123,74,30,0.89);
+	width: 800px;
+	margin:0 auto;}
+.left{
+	width: 1230px;
+		height: 900px;
+	background-color: rgba(122,92,62,.5);
+	border-radius: 20px;
+	float: left;
+	margin: 0px 13px 10px 13px; 
+	padding: 25px 25px 25px 25px;
+	border: thick rgba(81,46,13,1.00) solid;} 
